@@ -1,0 +1,30 @@
+{
+  "name": "remote-led-pi",
+  "version": "0.0.1",
+  "description": "Use websockets to send infrared signals through LIRC",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskycase/remote-led-pi.git"
+  },
+  "author": "Hrishikesh Patil <hrishikeshpatil.754@gmail.com> (https://riskycase.netlify.app/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riskycase/remote-led-pi/issues"
+  },
+  "homepage": "https://github.com/riskycase/remote-led-pi#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/ws": "^8.5.3",
+    "husky": "^8.0.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ws": "^8.11.0"
+  }
+}
